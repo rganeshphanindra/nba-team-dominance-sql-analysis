@@ -75,25 +75,6 @@ All analytical logic lives in SQL.
 
 ---
 
-## Repository Structure
-
-nba-team-dominance-sql-analysis/
-├── sql/
-│ ├── schema_and_transforms.sql
-│ ├── fact_table_logic.sql
-│ └── analysis_queries.sql
-│
-├── notebooks/
-│ └── NBA_SQL_Analysis.ipynb
-│
-├── README.md
-└── .gitignore
-
-yaml
-Copy code
-
----
-
 ## About the Data
 
 The project uses a public NBA historical dataset (games, teams, scoring data).

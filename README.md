@@ -93,14 +93,3 @@ Instructions for sourcing the data are described inside the notebook.
   - how results are interpreted
   - simple visualizations that support the SQL analysis
 
-This project is designed to be read and understood, not just run.
-
----
-
-## What This Project Demonstrates
-
-- Strong SQL fundamentals
-- Advanced analytical SQL patterns
-- Ability to reason about messy, real-world data
-- Comfort working across long time ranges and changing contexts
-- Clear analytical thinking, not just query writing

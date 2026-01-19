@@ -1,0 +1,16 @@
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Data (keep OUT of GitHub)
+data/
+*.csv
+*.sqlite
+*.db

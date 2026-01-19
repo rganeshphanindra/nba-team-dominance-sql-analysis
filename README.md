@@ -5,8 +5,7 @@
 This project analyzes NBA team performance across seasons and eras using SQL as the primary tool.  
 The goal is to understand how teams win, how performance changes over time, and which teams were truly dominant relative to their competition.
 
-This is a SQL-first analytics project.  
-Python and Jupyter are only used to run queries and visualize results, not to replace SQL logic.
+Python and Jupyter are used to run queries and visualize results.
 
 ---
 

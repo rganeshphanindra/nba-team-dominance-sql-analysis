@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project analyzes NBA team performance across seasons and eras using **SQL as the primary analytical tool**.
+This project analyzes NBA team performance across seasons and eras using SQL as the primary analytical tool.
 
 The objective is not just to count wins or rank teams, but to understand:
 
@@ -10,20 +10,16 @@ The objective is not just to count wins or rank teams, but to understand:
 - how performance evolves over time  
 - which teams were truly dominant relative to their league context  
 
-This is a **SQL-first project**.  
-Python and Jupyter are used only for query execution and result visualization.  
+Python and Jupyter are used for query execution and result visualization.  
 All analytical logic, transformations, and metrics are implemented in SQL.
 
 ---
 
 ## Data Modeling Approach
 
-Rather than querying raw data directly, this project follows a **three-layer analytics architecture**:
+Rather than querying raw data directly, this project follows a three-layer analytics architecture:
 
 raw → staging → analytics
-
-yaml
-Copy code
 
 This mirrors real-world data engineering and analytics workflows used in production environments.
 
@@ -87,7 +83,7 @@ This separation makes the analysis scalable and easier to reason about.
 
 ## Key Analytical Questions
 
-This project answers **seven focused analytical questions**.  
+This project answers seven focused analytical questions.  
 Each query is designed to demonstrate a specific SQL concept and analytical skill.
 
 ---
@@ -235,38 +231,3 @@ This avoids directly comparing fundamentally different eras of basketball.
 - Advanced SQL  
 - Jupyter Notebook (execution and visualization only)
 
----
-
-## Repository Structure
-
-nba-team-dominance-sql-analysis/
-├── SQL/
-│ ├── create_schema.sql
-│ ├── create_raw_tables.sql
-│ ├── create_staging_tables.sql
-│ ├── create_analytics_tables.sql
-│ ├── load_raw_tables.sql
-│ └── all_queries.sql
-│
-├── notebooks/
-│ └── NBA_SQL_Analysis.ipynb
-│
-├── README.md
-└── .gitignore
-
-yaml
-Copy code
-
----
-
-## Final Notes
-
-This project is designed to be **read and reviewed**, not just executed.
-
-Its purpose is to demonstrate:
-- clear analytical thinking  
-- strong SQL fundamentals  
-- comfort with data modeling  
-- the ability to turn raw data into meaningful insight  
-
-This reflects how I would approach an analytics problem in a real production environment.
